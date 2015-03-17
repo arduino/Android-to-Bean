@@ -1,11 +1,3 @@
-/* Arduino code for Bean to run the bean_test
- *
- * Please note this code is proof of concept, lacks documentation
- *
- * (c) 2015 D. Cuartielles for Arduino
- *     d.cuartielles@arduino.cc
- */
-
 int pin_num = 0; //Choose the pin where the led is connected to
 int val=0;
 
@@ -15,7 +7,6 @@ void setup()
     Serial.begin(9600); //Initialize the Serial Communication or BLE
     //Serial.flush();
 }
-
 void loop()
 {
         byte input_serial;
@@ -33,14 +24,15 @@ void loop()
             {
              if(pin_num == 0)   {         
                  analogWrite(pin_num, val); //Execute action
-                 Serial.println("L/" + String(pin_num) + '/' + String(val));
+                 Serial.print("L/" + String(pin_num) + '/' + String(val));
              }
-             else Serial.println("Wrong Pin");
+             else Serial.print("Wrong Pin");
+
             }
           }
           else
           {
-            Serial.println("Wrong Command");
+            Serial.print("Wrong Command");
           }
         }
 }
