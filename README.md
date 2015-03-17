@@ -28,7 +28,7 @@ Mainly for three reasons:
 ##Who
 So far the main contribution to this proof of concept comes from: D. Cuartielles, d.cuartielles@arduino.cc.
 
-The Beanlib library is made by Hugo Visser, from http://littlerobots.nl. Visit his site for more code awesomness.
+The Beanlib library is made by Hugo Visser, from http://littlerobots.nl. Visit his site for more code awesomeness.
 
 ##How to contribute
 For questions, issues and contributions, use github.
