@@ -147,13 +147,13 @@ public class MainActivity extends ActionBarActivity {
     public void lightOff(View v) {
         // after the connection is instantiated, briefly flash the led:
         Log.i(TAG, "Sending command: light off");
-        mBean.sendSerialMessage("L 6 0\n");
+        mBean.sendSerialMessage("L/0/0\n");
     }
 
     public void lightOn(View v) {
         // after the connection is instantiated, briefly flash the led:
         Log.i(TAG, "Sending command: light on");
-        mBean.sendSerialMessage("L 6 99\n");
+        mBean.sendSerialMessage("L/0/99\n");
     }
 
     public void errorTest(View v) {
