@@ -10,7 +10,7 @@ https://bitbucket.org/littlerobots/beanlib
 
 and that creates an API to get a Bean (which is a BLE device) to talk to an Android device.
 
-_Note: beanlib is licensed under MIT License and therefore that code will remained licensed like that and it has to be mentioned here._
+_Note: beanlib is licensed under MIT License and therefore that code will remain licensed like that and it has to be mentioned here._
 
 * bean_test: this is my small contribution, it is a simple app that connects to the first Bean it finds and allows you sending three commands from the interface: LED ON, LED OFF and lalala. You should connect an LED to pin 0 on the Bean. There is a bean_test.ino application you should upload to the Bean if you want things to work
 
@@ -27,6 +27,8 @@ Mainly for three reasons:
 
 ##Who
 So far the main contribution to this proof of concept comes from: D. Cuartielles, d.cuartielles@arduino.cc.
+
+The Beanlib library is made by Hugo Visser, from http://littlerobots.nl. Visit his site for more code awesomness.
 
 ##How to contribute
 For questions, issues and contributions, use github.
