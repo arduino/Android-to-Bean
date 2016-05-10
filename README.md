@@ -19,7 +19,7 @@ _Note: this last chunck of code should be GPLv3 licensed, just because. The Ardu
 ##Why
 Mainly for three reasons:
 
-1) we needed it for a project at Arduino Verkstad, we are running the http://nordiciothackathon.com and we need to display cases where BLE devices can be used in various configurations
+1) we needed it for a project at Arduino LLC, we are running the http://nordiciothackathon.com and we need to display cases where BLE devices can be used in various configurations
 
 2) I hadn't been coding anything fun for a while
 
